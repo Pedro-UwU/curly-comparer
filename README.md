@@ -54,9 +54,9 @@ def custom_substitution_cost(char1, char2):
 distance = weighted_distance(
     "hello", 
     "hallo", 
-    insertion_fn=lambda x: 1.5,
+    insertion_fn=custom_insertion_cost,
     deletion_fn=lambda x: 1.0,
-    subs_fn=lambda x, y: 2.0
+    subs_fn=custom_substitution_cost
 )
 ```
 
