@@ -78,4 +78,4 @@ Licensed under the Apache License 2.0
 
 ## Author
 
-Pedro Lopez (pdihax@gmail.com)
+Pedro Lopez Guzman (pdihax@gmail.com)
